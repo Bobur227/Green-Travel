@@ -96,22 +96,11 @@ return [
     */
 
     'multilingual' => [
-        /*
-         * Set whether or not the multilingual is supported by the BREAD input.
-         */
-        'enabled' => false,
-
-        /*
-         * Select default language
-         */
+        'enabled' => true,
         'default' => 'en',
-
-        /*
-         * Select languages that are supported.
-         */
         'locales' => [
             'en',
-            //'pt',
+            'ru',
         ],
     ],
 
@@ -183,9 +172,9 @@ return [
     |
     */
 
-    'primary_color' => '#22A7F0',
+    'primary_color' => '#638D8D',
 
-    'show_dev_tips' => true, // Show development tip "How To Use:" in Menu and Settings
+    'show_dev_tips' => false, // Show development tip "How To Use:" in Menu and Settings
 
     // Here you can specify additional assets you would like to be included in the master.blade
     'additional_css' => [
@@ -211,13 +200,7 @@ return [
     'media' => [
         // The allowed mimetypes to be uploaded through the media-manager.
         // 'allowed_mimetypes' => '*', //All types can be uploaded
-        'allowed_mimetypes' => [
-          'image/jpeg',
-          'image/png',
-          'image/gif',
-          'image/bmp',
-          'video/mp4',
-        ],
+        'allowed_mimetypes' => '*',
         //Path for media-manager. Relative to the filesystem.
         'path'                => '/',
         'show_folders'        => true,
@@ -226,7 +209,7 @@ return [
         'allow_delete'        => true,
         'allow_create_folder' => true,
         'allow_rename'        => true,
-        /*'watermark'           => [
+        'watermark'           => [
             'source'         => 'watermark.png',
             'position'       => 'bottom-left',
             'x'              => 0,
@@ -240,6 +223,7 @@ return [
                 'width' => 500,
                 'height'=> 500
            ],
-       ]*/
+       ]
     ],
 ];
+
