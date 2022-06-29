@@ -292,7 +292,7 @@
         <!--Left Col-->
         <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
             <h1 class="my-4 text-3xl md:text-5xl text-green-300 font-bold leading-tight text-center md:text-left slide-in-bottom-h1">Go out from the stone city and find yourself</h1>
-            <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle"> <h1 class="text-green-600 md:text-3xl">Main Information:</h1> Zurich - Grossmunster,Zürich
+            <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left slide-in-bottom-subtitle"> <h1 class=" slide-in-bottom-subtitle text-green-600 md:text-3xl">Main Information:</h1> <p class="leading-normal text-base mb-8 text-center md:text-left slide-in-bottom-subtitle"> Grossmunster,Zürich
                 Museum ofArt
                 Lucerne - Lake Lucerne, Reuss,
                 Pilatus and Rigi
@@ -301,7 +301,7 @@
                 TrailGeneva - Basilica Sancti
                 Petri, Geneva’s Museum ofArt
                 and History, Notre-Dame Basilica</p>
-
+            </p>
         </div>
         <div class="w-full xl:w-3/5 py-6 overflow-y-hidden">
             <img class="w-5/6 mx-auto lg:mr-0 slide-in-bottom"  src="http://127.0.0.1:8000/storage/11.jpg">

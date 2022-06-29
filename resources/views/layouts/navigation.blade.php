@@ -18,6 +18,14 @@
                         {{ __('О Нас!') }}
                     </x-nav-link>
                 </div>
+                <?php $page = TCG\Voyager\Models\Page::first(); ?>
+                @can('add', $page )
+                    <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex ">
+                        <x-nav-link href="http://127.0.0.1:8000/admin">
+                            {{ __('Админка') }}
+                        </x-nav-link>
+                    </div>
+                @endcan
             </div>
 
             <!-- Settings Dropdown -->

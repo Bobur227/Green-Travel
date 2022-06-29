@@ -220,8 +220,8 @@ return [
            [
                 'type'  => 'fit',
                 'name'  => 'fit-500',
-                'width' => 500,
-                'height'=> 500
+                'width' => 300,
+                'height'=> 250
            ],
        ]
     ],
